@@ -1,0 +1,32 @@
+﻿  MFCAppwinpcapDlg.cpp
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(11,5): error C2084: 函数“int analyze_icmp(const u_char *,datapkt *,pktcount *)”已有主体
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(11): message : 参见“analyze_icmp”的前一个定义
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(29,5): error C2084: 函数“int analyze_icmp6(const u_char *,datapkt *,pktcount *)”已有主体
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(29): message : 参见“analyze_icmp6”的前一个定义
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(55,5): error C2084: 函数“int analyze_tcp(const u_char *,datapkt *,pktcount *)”已有主体
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(55): message : 参见“analyze_tcp”的前一个定义
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(100,5): error C2084: 函数“int analyze_udp(const u_char *,datapkt *,pktcount *)”已有主体
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(100): message : 参见“analyze_udp”的前一个定义
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(119,5): error C2084: 函数“int analyze_arp(const u_char *,datapkt *,pktcount *)”已有主体
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(119): message : 参见“analyze_arp”的前一个定义
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(152,5): error C2084: 函数“int analyze_ip(const u_char *,datapkt *,pktcount *)”已有主体
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(152): message : 参见“analyze_ip”的前一个定义
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(186,10): error C2065: “analyze_icmp”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(189,10): error C2065: “analyze_tcp”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(192,10): error C2065: “analyze_udp”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(202,5): error C2084: 函数“int analyze_ip6(const u_char *,datapkt *,pktcount *)”已有主体
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(202): message : 参见“analyze_ip6”的前一个定义
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(229,10): error C2065: “analyze_icmp6”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(232,10): error C2065: “analyze_tcp”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(235,10): error C2065: “analyze_udp”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(248,5): error C2084: 函数“int analyze_frame(const u_char *,datapkt *,pktcount *)”已有主体
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(248): message : 参见“analyze_frame”的前一个定义
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(271,10): error C2065: “analyze_arp”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(274,10): error C2065: “analyze_ip”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\utilities.cpp(277,10): error C2065: “analyze_ip6”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\MFCAppwinpcapDlg.cpp(186,3): error C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+D:\WinPcap\MFCAppwinpcap\MFCAppwinpcapDlg.cpp(480,24): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+D:\WinPcap\MFCAppwinpcap\MFCAppwinpcapDlg.cpp(575,7): error C2065: “analyze_frame”: 未声明的标识符
+D:\WinPcap\MFCAppwinpcap\MFCAppwinpcapDlg.cpp(1132,7): error C2065: “analyze_frame”: 未声明的标识符
+  utilities.cpp
+  正在生成代码...
